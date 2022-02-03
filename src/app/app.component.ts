@@ -8,8 +8,6 @@ import { Component } from '@angular/core';
 
     <router-outlet></router-outlet>
 
-    <app-home></app-home>
-
     <!--footer-->
     <app-footer></app-footer> 
    `,

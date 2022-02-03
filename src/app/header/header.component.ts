@@ -10,6 +10,13 @@ import { Component, OnInit } from '@angular/core';
           <img src="/assets/img/Symbol-Spiderman.png">
         </a>
       </div>
+
+      <!-- menu -->
+      <div class="navbar-menu">
+        <div class="navbar-start">
+          <a href="" class="navbar-item" routerLink="/">Home</a>
+        </div>
+      </div>
     </div>
   `,
   styles: [
