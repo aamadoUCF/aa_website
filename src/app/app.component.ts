@@ -11,8 +11,14 @@ import { Component } from '@angular/core';
     <!--footer-->
     <app-footer></app-footer> 
    `,
-  styles: []
+  styles: [`
+    body
+    {
+      background-color: black;
+    }
+  `]
 })
 export class AppComponent {
   title = 'aa_website';
 }
+

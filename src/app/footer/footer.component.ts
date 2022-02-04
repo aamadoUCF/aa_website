@@ -13,6 +13,7 @@ import { Component, OnInit } from '@angular/core';
   .footer
   {
     font-size: small;
+    background-color: #363636;
   }  
   `
   ]
