@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import {
+  fader
+} from './route-animations'
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,7 +10,9 @@ import { Component } from '@angular/core';
     <!--header-->
     <app-header></app-header>
 
-    <router-outlet></router-outlet>
+    <div [@routeAnimations]="prepareRoute(outlet)" >
+      <router-outlet #outlet="outlet"></router-outlet>
+    </div>
 
     <!--footer-->
     <app-footer></app-footer> 
@@ -16,9 +22,18 @@ import { Component } from '@angular/core';
     {
       background-color: black;
     }
-  `]
+  `],
+  animations: [
+    fader
+  ]    
 })
+
 export class AppComponent {
   title = 'aa_website';
+
+  prepareRoute(outlet: RouterOutlet)
+  {
+    return  outlet.activatedRouteData['animation']
+  }
 }
 

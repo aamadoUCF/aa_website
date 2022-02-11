@@ -7,15 +7,15 @@ import { ProjectsComponent } from './projects/projects.component';
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent, data: { page: 'one'}
+    component: HomeComponent, data: { animation: 'fader'}
   },
   {
     path: 'projects',
-    component: ProjectsComponent, data: { page: 'two'}
+    component: ProjectsComponent, data: { animation: 'fader' }
   },
   {
     path: 'interests',
-    component: HobbiesComponent, data: { page: 'three'}
+    component: HobbiesComponent, data: { animation: 'fader' }
   }
 ];
 

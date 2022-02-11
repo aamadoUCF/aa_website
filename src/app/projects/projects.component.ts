@@ -13,6 +13,9 @@ import { Component, OnInit } from '@angular/core';
         </p>
       </div>
     </section>
+
+    <app-project></app-project>
+
   `,
   styles: [`
   .hero
