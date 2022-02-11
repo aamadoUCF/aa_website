@@ -3,9 +3,8 @@
 This ia my first website made using Angular, and I'm very excited to be able to learn about how it works. I definitely thought that web development would be insanely hard, but Angular seems to actual make the process easier.
 
 This website features
-- Home Page
+- Home / About page
 - Projects Page
-- About Me
 - Hobbies
 
 My end goal with this website is to host it on GitHub pages and to also associate a domain name with it. This is more so to stand as a website to show employers about my history and projects and to learn about web developement, specifically Angular.
