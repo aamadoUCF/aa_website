@@ -22,6 +22,7 @@ import { Component, OnInit } from '@angular/core';
       background-image: url("/assets/img/background_home.jpg") !important;
       background-size: cover;
       background-position: center center;
+      margin-bottom: 20px;
     }
   `]
 })

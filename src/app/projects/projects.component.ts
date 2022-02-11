@@ -23,7 +23,8 @@ import { Component, OnInit } from '@angular/core';
     background-image: url("/assets/img/background_home.jpg") !important;
     background-size: cover;
     background-position: center center;
-    filter: hue-rotate(180deg)
+    filter: hue-rotate(180deg);
+    margin-bottom: 20px;
   }
 `
   ]

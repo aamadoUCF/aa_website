@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
       <!--logo-->
       <div class="navbar-brand">
         <a class="navbar-item">
-          <img src="/assets/img/Symbol-Spiderman.png">
+          <img src="/assets/img/Symbol-Spiderman.png" routerLink="/">
         </a>
       </div>
 

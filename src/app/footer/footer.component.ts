@@ -14,6 +14,7 @@ import { Component, OnInit } from '@angular/core';
   {
     font-size: small;
     background-color: #363636;
+    margin-top: 20px;
   }  
   `
   ]
