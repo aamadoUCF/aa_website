@@ -5,7 +5,9 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <footer class="footer">
       <div class="container content has-text-centered">
-        <p>Made by Andrew Amado using Angular</p>
+        <p class="subtitle has-text-white-ter">Website built by 
+        <a href="https://github.com/aamados" class="has-text-danger" target="_blank" rel="noopener noreferrer">Andrew Amado</a> using 
+        <a href="https://angular.io/" class="has-text-danger" target="_blank" rel="noopener noreferrer">Angular</a>.</p>
       </div>
     </footer>
   `,
@@ -14,7 +16,6 @@ import { Component, OnInit } from '@angular/core';
   {
     font-size: small;
     background-color: #363636;
-    margin-top: 20px;
   }  
   `
   ]
