@@ -9,7 +9,9 @@ import { ProjectsComponent } from './projects/projects.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { AboutComponent } from './about/about.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ProjectComponent } from './project/project.component'
+import { ProjectComponent } from './project/project.component';
+import { MinecraftDataComponent } from './minecraft-data/minecraft-data.component';
+import { DiscordBotComponent } from './discord-bot/discord-bot.component'
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ProjectComponent } from './project/project.component'
     ProjectsComponent,
     HobbiesComponent,
     AboutComponent,
-    ProjectComponent
+    ProjectComponent,
+    MinecraftDataComponent,
+    DiscordBotComponent
     ],
   imports: [
     BrowserModule,
