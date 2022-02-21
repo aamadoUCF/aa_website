@@ -39,7 +39,7 @@ import { Component, OnInit } from '@angular/core';
                   <dt>- Added an Activity feature that allows players to share what type of activity they are performing.</dt>
                   <dt>- Coinfigured Maven project for this program.</dt>
                   <dt>- Used GitHub for version control.</dt>
-                  <dt>- Oversaw software development of this project</dt>
+                  <dt>- Oversaw software development of this project.</dt>
                 </dl>
 
                 </div>

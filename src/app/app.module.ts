@@ -11,7 +11,8 @@ import { AboutComponent } from './about/about.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProjectComponent } from './project/project.component';
 import { MinecraftDataComponent } from './minecraft-data/minecraft-data.component';
-import { DiscordBotComponent } from './discord-bot/discord-bot.component'
+import { DiscordBotComponent } from './discord-bot/discord-bot.component';
+import { NgWebsiteComponent } from './ng-website/ng-website.component'
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { DiscordBotComponent } from './discord-bot/discord-bot.component'
     AboutComponent,
     ProjectComponent,
     MinecraftDataComponent,
-    DiscordBotComponent
+    DiscordBotComponent,
+    NgWebsiteComponent
     ],
   imports: [
     BrowserModule,

@@ -8,6 +8,10 @@ import { Component, OnInit } from '@angular/core';
       
       <app-minecraft-data></app-minecraft-data>
 
+      <!-- Website -->
+
+      <app-ng-website></app-ng-website>
+
       <!-- Discord Bot -->
 
       <app-discord-bot></app-discord-bot>
