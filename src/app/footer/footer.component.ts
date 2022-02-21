@@ -14,6 +14,7 @@ import { Component, OnInit } from '@angular/core';
   styles: [`
   .footer
   {
+    margin-top: 20px;
     font-size: small;
     background-color: #363636;
   }  
