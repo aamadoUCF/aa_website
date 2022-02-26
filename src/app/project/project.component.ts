@@ -11,6 +11,10 @@ import { Component, OnInit } from '@angular/core';
       <!-- Website -->
 
       <app-ng-website></app-ng-website>
+      
+      <!-- RestAPI - GreyMatter POOP -->
+
+      <app-restapi></app-restapi>
 
       <!-- Discord Bot -->
 
