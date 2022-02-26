@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
         <section class="section">
         <h1 class="title has-text-white-ter">Personal Website</h1>
-          <p class="subtitle has-text-grey-light">Used Angular Framework –  January. 2022 - Present </p>
+          <p class="subtitle has-text-grey-light">Used Angular Framework –  Jan. 2022 - Present </p>
           <p class="subtitle"><a href="https://github.com/aamados/aamados.github.io" target="_blank" rel="noopener noreferrer"><img src="/assets/img/githubLogo.png" alt="" class="click-logo"></a></p>
 
             <div class="tile is-ancestor">
