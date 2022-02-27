@@ -13,7 +13,8 @@ import { ProjectComponent } from './project/project.component';
 import { MinecraftDataComponent } from './minecraft-data/minecraft-data.component';
 import { DiscordBotComponent } from './discord-bot/discord-bot.component';
 import { NgWebsiteComponent } from './ng-website/ng-website.component';
-import { RestapiComponent } from './restapi/restapi.component'
+import { RestapiComponent } from './restapi/restapi.component';
+import { PythonDataScriptComponent } from './python-data-script/python-data-script.component'
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { RestapiComponent } from './restapi/restapi.component'
     MinecraftDataComponent,
     DiscordBotComponent,
     NgWebsiteComponent,
-    RestapiComponent
+    RestapiComponent,
+    PythonDataScriptComponent
     ],
   imports: [
     BrowserModule,
