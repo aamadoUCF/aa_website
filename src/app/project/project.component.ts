@@ -37,7 +37,7 @@ import { Component, OnInit } from '@angular/core';
   styles: [`
   hr
   {
-    width: 90%;
+    width: 95%;
     margin: auto;
     background-color: grey;
   }
