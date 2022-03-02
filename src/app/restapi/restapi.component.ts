@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-restapi',
   template: `
   <section class="section">
-  <h1 class="title has-text-white-ter">RESTful API</h1>
+  <h1 class="title has-text-white-ter">REST API</h1>
     <p class="subtitle has-text-grey-light">Written in JavaScript –  Oct. 2020 - Nov. 2020</p>
     <p class="subtitle"><a href="https://github.com/COP4331C-Fall2020-Group8/Greymatter-API" target="_blank" rel="noopener noreferrer"><img src="/assets/img/githubLogo.png" alt="" class="click-logo"></a></p>
 
