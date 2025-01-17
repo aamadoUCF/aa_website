@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
             <figcaption>UCF - Computer Science - Class of 2021</figcaption>
             <figcaption>
               <a href="https://github.com/aamados" target="_blank" rel="noopener noreferrer"><img src="/assets/img/githubLogo.png" alt="" class="click-logo"></a>
-              <a href="mailto:aamado@knights.ucf.edu" target="_blank" rel="noopener noreferrer"><img src="/assets/img/mailLogo.png" alt="" class="click-logo"></a>
+              <a href="mailto:andrew@aamados.me" target="_blank" rel="noopener noreferrer"><img src="/assets/img/mailLogo.png" alt="" class="click-logo"></a>
               <a href="/assets/info/resume.pdf" target="_blank" rel="noopener noreferrer"><img src="/assets/img/resumeLogo.png" alt="" class="click-logo"></a>
             </figcaption>
           </figure>
